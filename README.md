@@ -38,13 +38,13 @@ DB_HOST
 
 Use psql or any tool to create the database.
 
-6. **Run database migrations**
+5. **Run database migrations**
 
 Apply the Sequelize migrations to create tables and schema:
 
 npx sequelize-cli db:migrate
 
-7. **Start the backend server**
+6. **Start the backend server**
 
 npm start
 
