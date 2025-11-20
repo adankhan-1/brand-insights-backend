@@ -10,6 +10,10 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 4001;
 
+app.get('/', (req, res) => {
+    res.send('Welcome to Brand Insights Backend');
+});
+
 app.post('/api/brand', async (req, res) => {
     try {
         const { name, website, email } = req.body;
